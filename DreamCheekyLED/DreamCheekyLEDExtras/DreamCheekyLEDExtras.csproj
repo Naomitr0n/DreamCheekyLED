@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="4.150.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DreamCheekyLED\DreamCheekyLED.csproj" />
+  </ItemGroup>
+
+</Project>

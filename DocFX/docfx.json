@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../DreamCheekyLED",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "img/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appFaviconPath": "img/favicon.ico",
+      "_appName": "DreamCheekyLED Library",
+      "_appLogoPath": "img/trans.png",
+      "_appTitle": "DreamCheekyLED Library",
+      "_disableAffix": false,
+      "_disableBreadcrumb": false,
+      "_disableNavbar": false,
+      "_disableNewTab": false,
+      "_disableNextArticle": false,
+      "_disableToc": false,
+      "_disableTocFilter": false,
+      "_enableSearch": true,
+      "_enableNewTab": true,
+      "pdf": false
+    }
+  }
+}

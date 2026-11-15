@@ -1,0 +1,12 @@
+- name: Home
+  href: index.md
+
+- name: Quick Start Guide - C#
+  href: quickstart.md
+
+- name: Detailed Usage Guide - C#
+  href: detailed_usage.md
+
+- name: API Reference
+  href: api/toc.yml
+  expanded: true

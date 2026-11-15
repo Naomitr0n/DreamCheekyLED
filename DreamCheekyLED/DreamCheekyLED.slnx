@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DreamCheekyLED/DreamCheekyLED.csproj" />
+  <Project Path="DreamCheekyLEDExtras/DreamCheekyLEDExtras.csproj" Id="3db15a25-b06a-42ec-83ed-3697615c0ef1" />
+  <Project Path="DreamCheekyPathLoaderApp/DreamCheekyPathLoaderApp.csproj" DefaultStartup="true" />
+</Solution>
